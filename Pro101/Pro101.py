@@ -3,7 +3,7 @@ import dropbox
 from dropbox.files import WriteMode
 #
 class TransferData:
-    def _init_(self , access_token):
+    def __init__(self , access_token):
         self.access_token = access_token
 #
     def upload_file(self , file_from , file_to):
